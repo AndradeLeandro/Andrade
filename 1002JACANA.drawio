@@ -1,23 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2021-12-08T18:19:54.821Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="-paOztlhHILHInqAngYT" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-08T18:44:52.038Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="oDWY2yRfHeUsCJhU-ntb" version="15.9.1" type="github">
   <diagram name="Page-1" id="55a83fd1-7818-8e21-69c5-c3457e3827bb">
-    <mxGraphModel dx="2355" dy="1455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1570" dy="970" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="69ecfefc5c41e42c-2" value="Internet" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/networking/Cloud_128x128.png;rounded=1;shadow=0;comic=0;strokeWidth=2;fontSize=22;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="1" vertex="1">
-          <mxGeometry x="450" y="60" width="80" height="80" as="geometry" />
+        <mxCell id="69ecfefc5c41e42c-2" value="Internet" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/networking/Cloud_128x128.png;rounded=1;shadow=0;comic=0;strokeWidth=4;fontSize=22;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="1" vertex="1">
+          <mxGeometry x="480" y="30" width="120" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="yyS76C79-I25Z5v4Y-9H-1" value="" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="440" y="270" width="80" height="80" as="geometry" />
+        <mxCell id="yyS76C79-I25Z5v4Y-9H-1" value="&lt;span style=&quot;font-size: 20px&quot;&gt;FORTINET 40D&lt;/span&gt;" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="465" y="210" width="150" height="130" as="geometry" />
         </mxCell>
         <mxCell id="yyS76C79-I25Z5v4Y-9H-2" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="440" y="410" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="yyS76C79-I25Z5v4Y-9H-5" value="" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="300" y="180" width="80" height="80" as="geometry" />
+          <mxGeometry x="65" y="410" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="yyS76C79-I25Z5v4Y-9H-6" value="" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="550" y="180" width="80" height="80" as="geometry" />
+          <mxGeometry x="690" y="120" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yyS76C79-I25Z5v4Y-9H-7" value="" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="270" y="120" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yyS76C79-I25Z5v4Y-9H-8" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="460" y="425" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="yyS76C79-I25Z5v4Y-9H-9" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="860" y="410" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="yyS76C79-I25Z5v4Y-9H-10" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="60" y="640" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="yyS76C79-I25Z5v4Y-9H-11" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="875" y="600" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="yyS76C79-I25Z5v4Y-9H-12" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="875" y="780" width="160" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
