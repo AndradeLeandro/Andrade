@@ -1,0 +1,284 @@
+[
+  {
+    "key" : "1002",
+    "name" : "JAÇANÃ",
+    "latitude" : -23.52763,
+    "longitude" : -46.67116
+  },
+  {
+    "key" : "1003",
+    "name" : "STOAMARO",
+    "latitude" : -1.4554,
+    "longitude" : -48.4898
+  },
+  {
+    "key" : "1004",
+    "name" : "ITAIM",
+    "latitude" : -19.9102,
+    "longitude" : -43.9266
+  },
+  {
+    "key" : "1005",
+    "name" : "ITABERABA",
+    "latitude" : 23.48535,
+    "longitude" : -46.69306
+  },
+  {
+    "key" : "1006",
+    "name" : "TREMEMBE",
+    "latitude" : -23.45803,
+    "longitude" : -46.61388
+  },
+  {
+    "key" : "1007",
+    "name" : "VILARIO",
+    "latitude" : -23.42926,
+    "longitude" : -46.53667
+  },
+  {
+    "key" : "1008",
+    "name" : "INTERLAGOS",
+    "latitude" : -15.601,
+    "longitude" : -56.0974
+  },
+  {
+    "key" : "1009",
+    "name" : "PQMOOCA",
+    "latitude" : -25.4195,
+    "longitude" : -49.2646
+  },
+  {
+    "key" : "1010",
+    "name" : "VILA SAOJOSE",
+    "latitude" : -27.5945,
+    "longitude" : -48.5477
+  },
+  {
+    "key" : "1011",
+    "name" : "AGUABRANCA",
+    "latitude" : -3.71664,
+    "longitude" : -38.5423
+  },
+  {
+    "key" : "1012",
+    "name" : "TATUAPE",
+    "latitude" : -16.6864,
+    "longitude" : -49.2643
+  },
+  {
+    "key" : "1013",
+    "name" : "ABC",
+    "latitude" : -7.11509,
+    "longitude" : -34.8641
+  },
+  {
+    "key" : "1014",
+    "name" : "PENHA",
+    "latitude" : 0.034934,
+    "longitude" : -51.0694
+  },
+  {
+    "key" : "1015",
+    "name" : "MCANDIDA",
+    "latitude" : -9.66599,
+    "longitude" : -35.735
+  },
+  {
+    "key" : "1016",
+    "name" : "POMPEIA",
+    "latitude" : -23.5248,
+    "longitude" : -46.68343
+  },
+  {
+    "key" : "1017",
+    "name" : "ANCHIETA",
+    "latitude" : -5.79357,
+    "longitude" : -35.1986
+  },
+  {
+    "key" : "1018",
+    "name" : "PIEDADE",
+    "latitude" : -10.24,
+    "longitude" : -48.3558
+  },
+  {
+    "key" : "1019",
+    "name" : "CARAPICUIBA 1",
+    "latitude" : -23.51712,
+    "longitude" : -46.84046
+  },
+  {
+    "key" : "1020",
+    "name" : "FACÓ",
+    "latitude" : -23.50319,
+    "longitude" : -46.70661
+  },
+  {
+    "key" : "1021",
+    "name" : "CARRÃO",
+    "latitude" : -8.04666,
+    "longitude" : -34.8771
+  },
+  {
+    "key" : "1022",
+    "name" : "CB PENHA",
+    "latitude" : -9.97499,
+    "longitude" : -67.8243
+  },
+  {
+    "key" : "1023",
+    "name" : "VILAGALVAO",
+    "latitude" : -22.9129,
+    "longitude" : -43.2003
+  },
+  {
+    "key" : "1024",
+    "name" : "ARUJA",
+    "latitude" : -12.9718,
+    "longitude" : -38.5011
+  },
+  {
+    "key" : "1025",
+    "name" : "SJCAMPOS",
+    "latitude" : -2.53874,
+    "longitude" : -44.2825
+  },
+  {
+    "key" : "1026",
+    "name" : "VILABARROS",
+    "latitude" : -23.45163,
+    "longitude" : -46.50862
+  },
+  {
+    "key" : "1027",
+    "name" : "FAZENDINHA",
+    "latitude" : -5.09194,
+    "longitude" : -42.8034
+  },
+  {
+    "key" : "1029",
+    "name" : "DELIVERY",
+    "latitude" : -20.3155,
+    "longitude" : -40.3128
+  },
+  {
+    "key" : "1030",
+    "name" : "BARUERI",
+    "latitude" : -23.51461,
+    "longitude" : -46.85476
+  },
+  {
+    "key" : "1032",
+    "name" : "CACHOEIRINHA",
+    "latitude" : -23.46735,
+    "longitude" : -46.67006
+  },
+  {
+    "key" : "1033",
+    "name" : "FREGUESIA",
+    "latitude" : -23.48545,
+    "longitude" : -46.68144
+  },
+  {
+    "key" : "1034",
+    "name" : "TAIPAS",
+    "latitude" : -23.44168,
+    "longitude" : -46.72183
+  },
+  {
+    "key" : "1035",
+    "name" : "CARAPICUIBA 2",
+    "latitude" : -20.3155,
+    "longitude" : -40.3128
+  },
+  {
+    "key" : "1036",
+    "name" : "SAOVICENTE",
+    "latitude" : -20.3155,
+    "longitude" : -40.3128
+  },
+  {
+    "key" : "1037",
+    "name" : "CAJAMAR 1",
+    "latitude" : -20.3155,
+    "longitude" : -40.3128
+  },
+  {
+    "key" : "1038",
+    "name" : "CABREUVA",
+    "latitude" : -20.3155,
+    "longitude" : -40.3128
+  },
+  {
+    "key" : "1039",
+    "name" : "SALTO 2",
+    "latitude" : -20.3155,
+    "longitude" : -40.3128
+  },
+  {
+    "key" : "1040",
+    "name" : "SALTO 1",
+    "latitude" : -20.3155,
+    "longitude" : -40.3128
+  },
+  {
+    "key" : "1041",
+    "name" : "SAOCAETANO",
+    "latitude" : -20.3155,
+    "longitude" : -40.3128
+  },
+  {
+    "key" : "1042",
+    "name" : "INDAIATUBA",
+    "latitude" : -20.3155,
+    "longitude" : -40.3128
+  },
+  {
+    "key" : "1043",
+    "name" : "CAJAMAR 2",
+    "latitude" : -20.3155,
+    "longitude" : -40.3128
+  },
+  {
+    "key" : "1044",
+    "name" : "CAMPINAS",
+    "latitude" : -20.3155,
+    "longitude" : -40.3128
+  },
+  {
+    "key" : "1045",
+    "name" : "MBOIMIRIM",
+    "latitude" : -20.3155,
+    "longitude" : -40.3128
+  },
+  {
+    "key" : "1047",
+    "name" : "ITAPECERICA",
+    "latitude" : -20.3155,
+    "longitude" : -40.3128
+  },
+  {
+    "key" : "1048",
+    "name" : "FRIOZEM",
+    "latitude" : -20.3155,
+    "longitude" : -40.3128
+  },
+  {
+    "key" : "1049",
+    "name" : "RUDGERAMOS",
+    "latitude" : -20.3155,
+    "longitude" : -40.3128
+  },
+  {
+    "key" : "1051",
+    "name" : "VILAROMANA",
+    "latitude" : -20.3155,
+    "longitude" : -40.3128
+  },
+  {
+    "key" : "1099",
+    "name" : "PAULISTA",
+    "latitude" : -20.3155,
+    "longitude" : -40.3128
+  }
+]
