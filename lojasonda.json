@@ -200,8 +200,8 @@
   {
     "key" : "1037",
     "name" : "CAJAMAR 1",
-    "latitude" : -20.3155,
-    "longitude" : -40.3128
+    "latitude" : -23.40824,
+    "longitude" : -46.85644
   },
   {
     "key" : "1038",
@@ -212,14 +212,14 @@
   {
     "key" : "1039",
     "name" : "SALTO 2",
-    "latitude" : -20.3155,
-    "longitude" : -40.3128
+    "latitude" : -23.18012,
+    "longitude" : -47.3117
   },
   {
     "key" : "1040",
     "name" : "SALTO 1",
-    "latitude" : -20.3155,
-    "longitude" : -40.3128
+    "latitude" : -23.21368,
+    "longitude" : -47.27832
   },
   {
     "key" : "1041",
@@ -230,14 +230,14 @@
   {
     "key" : "1042",
     "name" : "INDAIATUBA",
-    "latitude" : -20.3155,
-    "longitude" : -40.3128
+    "latitude" : -23.09468,
+    "longitude" : -47.22515
   },
   {
     "key" : "1043",
     "name" : "CAJAMAR 2",
-    "latitude" : -20.3155,
-    "longitude" : -40.3128
+    "latitude" : -23.40919,
+    "longitude" : -46.84852
   },
   {
     "key" : "1044",
@@ -248,14 +248,14 @@
   {
     "key" : "1045",
     "name" : "MBOIMIRIM",
-    "latitude" : -20.3155,
-    "longitude" : -40.3128
+    "latitude" : -23.67549,
+    "longitude" : -46.75445
   },
   {
     "key" : "1047",
     "name" : "ITAPECERICA",
-    "latitude" : -20.3155,
-    "longitude" : -40.3128
+    "latitude" : -23.67647,
+    "longitude" : -46.78978
   },
   {
     "key" : "1048",
@@ -278,7 +278,7 @@
   {
     "key" : "1099",
     "name" : "PAULISTA",
-    "latitude" : -20.3155,
-    "longitude" : -40.3128
+    "latitude" : -23.5595,
+    "longitude" : -46.65991
   }
 ]
