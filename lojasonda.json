@@ -14,8 +14,8 @@
   {
     "key" : "1004",
     "name" : "ITAIM",
-    "latitude" : -19.9102,
-    "longitude" : -43.9266
+    "latitude" : -23.48609,
+    "longitude" : -46.38125
   },
   {
     "key" : "1005",
@@ -44,20 +44,20 @@
   {
     "key" : "1009",
     "name" : "PQMOOCA",
-    "latitude" : -25.4195,
-    "longitude" : -49.2646
+    "latitude" : -23.58251,
+    "longitude" : -46.59242
   },
   {
     "key" : "1010",
     "name" : "VILA SAOJOSE",
-    "latitude" : -27.5945,
-    "longitude" : -48.5477
+    "latitude" : -23.74867,
+    "longitude" : -46.70988
   },
   {
     "key" : "1011",
     "name" : "AGUABRANCA",
-    "latitude" : -3.71664,
-    "longitude" : -38.5423
+    "latitude" : -23.52763,
+    "longitude" : -46.67116
   },
   {
     "key" : "1012",
@@ -68,20 +68,20 @@
   {
     "key" : "1013",
     "name" : "ABC",
-    "latitude" : -7.11509,
-    "longitude" : -34.8641
+    "latitude" : -23.686,
+    "longitude" : -46.54727
   },
   {
     "key" : "1014",
     "name" : "PENHA",
-    "latitude" : 0.034934,
-    "longitude" : -51.0694
+    "latitude" : 23.52624,
+    "longitude" : -46.54777
   },
   {
     "key" : "1015",
     "name" : "MCANDIDA",
-    "latitude" : -9.66599,
-    "longitude" : -35.735
+    "latitude" : -23.50678,
+    "longitude" : -46.60094
   },
   {
     "key" : "1016",
@@ -92,14 +92,14 @@
   {
     "key" : "1017",
     "name" : "ANCHIETA",
-    "latitude" : -5.79357,
-    "longitude" : -35.1986
+    "latitude" : -23.74459,
+    "longitude" : -46.55472
   },
   {
     "key" : "1018",
     "name" : "PIEDADE",
-    "latitude" : -10.24,
-    "longitude" : -48.3558
+    "latitude" : -23.71147,
+    "longitude" : -47.41963
   },
   {
     "key" : "1019",
@@ -116,8 +116,8 @@
   {
     "key" : "1021",
     "name" : "CARRÃO",
-    "latitude" : -8.04666,
-    "longitude" : -34.8771
+    "latitude" : -23.54757,
+    "longitude" : -46.53951
   },
   {
     "key" : "1022",
@@ -128,32 +128,32 @@
   {
     "key" : "1023",
     "name" : "VILAGALVAO",
-    "latitude" : -22.9129,
-    "longitude" : -43.2003
+    "latitude" : -23.45892,
+    "longitude" : -46.56369
   },
   {
     "key" : "1024",
     "name" : "ARUJA",
-    "latitude" : -12.9718,
-    "longitude" : -38.5011
+    "latitude" : -23.39416,
+    "longitude" : -46.32336
   },
   {
     "key" : "1025",
     "name" : "SJCAMPOS",
-    "latitude" : -2.53874,
-    "longitude" : -44.2825
+    "latitude" : -23.19012,
+    "longitude" : -45.87383
   },
   {
     "key" : "1026",
     "name" : "VILABARROS",
-    "latitude" : -23.45163,
-    "longitude" : -46.50862
+    "latitude" : -23.45304,
+    "longitude" : -46.508
   },
   {
     "key" : "1027",
     "name" : "FAZENDINHA",
-    "latitude" : -5.09194,
-    "longitude" : -42.8034
+    "latitude" : -23.56579,
+    "longitude" : -46.8475
   },
   {
     "key" : "1029",
@@ -272,8 +272,8 @@
   {
     "key" : "1051",
     "name" : "VILAROMANA",
-    "latitude" : -20.3155,
-    "longitude" : -40.3128
+    "latitude" : -23.5211,
+    "longitude" : -46.69974
   },
   {
     "key" : "1099",
