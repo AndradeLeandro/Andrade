@@ -74,7 +74,7 @@
   {
     "key" : "1014",
     "name" : "PENHA",
-    "latitude" : 23.52624,
+    "latitude" : -23.52624,
     "longitude" : -46.54777
   },
   {
@@ -194,8 +194,8 @@
   {
     "key" : "1036",
     "name" : "SAOVICENTE",
-    "latitude" : -20.3155,
-    "longitude" : -40.3128
+    "latitude" : -23.9683,
+    "longitude" : -46.38405
   },
   {
     "key" : "1037",
@@ -242,8 +242,8 @@
   {
     "key" : "1044",
     "name" : "CAMPINAS",
-    "latitude" : -20.3155,
-    "longitude" : -40.3128
+    "latitude" : -22.92544,
+    "longitude" : -47.12722
   },
   {
     "key" : "1045",
@@ -266,8 +266,8 @@
   {
     "key" : "1049",
     "name" : "RUDGERAMOS",
-    "latitude" : -20.3155,
-    "longitude" : -40.3128
+    "latitude" : -23.65995,
+    "longitude" : -46.57147
   },
   {
     "key" : "1051",
