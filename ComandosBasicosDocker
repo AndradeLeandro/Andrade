@@ -1,0 +1,70 @@
+#Listar images
+docker image list ou ls
+
+#Listar containers
+docker ps ou docker container ls
+
+#Remover images e container
+docker system prune -a
+docker image rm iddaimage
+docker container rm iddaimage
+
+#Gerenciamento de containers
+docker container stop meu_python        #PARAR O CONTAINER
+docker container start meu_python       #INICIAR O CONTAINER
+
+#Lista da rede
+docker network list
+docker network inspect nomedarede
+
+
+
+#Atualizar as images
+docker image pull nomedaimage
+
+#Inspecionar a image
+docker image inspect nomedaimage
+
+#Iniciar o container
+docker container run <parâmetros> <imagem> <CMD> <argumentos>
+
+Os parâmetros mais utilizados na execução do container são:
+
+Parâmetro	Explicação
+-d	Execução do container em background
+-i	Modo interativo. Mantém o STDIN aberto mesmo sem console anexado
+-t	Aloca uma pseudo TTY
+--rm	Automaticamente remove o container após finalização (Não funciona com -d)
+--name	Nomear o container
+-v	Mapeamento de volume
+-p	Mapeamento de porta
+-m	Limitar o uso de memória RAM
+-c	Balancear o uso de CPU
+
+docker container run -it --rm --name meu_python python bash
+
+#Mapeamento de volumes
+docker container run -it --rm -v "<host>:<container>" python
+
+#Mapeamento de portas
+docker container run -it --rm -p "<host>:<container>" python
+Exemplo: docker container run -it --rm -p 80:8080 python
+
+#Gerenciamento dos recursos
+#Para limitar o uso de memória RAM que pode ser utilizada por esse container 
+#basta executar o comando abaixo:
+#Com o comando abaixo estamos limitando esse container a utilizar somente 512 MB de RAM.
+docker container run -it --rm -m 512M python
+
+#Verificando a lista de containers
+docker container list <parâmetros>
+Os parâmetros mais utilizados na execução do container são:
+
+Parâmetro	Explicação
+-a	Lista todos os containers, inclusive os desligados
+-l	Lista os últimos containers, inclusive os desligados
+-n	Lista os últimos N containers, inclusive os desligados
+-q	Lista apenas os ids dos containers, ótimo para utilização em scripts
+
+
+
