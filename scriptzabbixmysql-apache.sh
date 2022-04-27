@@ -2,11 +2,12 @@
 
 docker network create --subnet 172.20.0.0/16 --ip-range 172.20.240.0/20 rede-interna
 
-docker run --name mysql-server -t \
+mkdir -p /var/lib/mysql $$ docker run --name mysql-server -t \
       -e MYSQL_DATABASE="zabbix" \
       -e MYSQL_USER="zabbix" \
       -e MYSQL_PASSWORD="senha" \
       -e MYSQL_ROOT_PASSWORD="senha" \
+      -v /var/lib/mysql/:/var/lib/mysql \
       --network=rede-interna \
       -d mysql --character-set-server=utf8 --collation-server=utf8_bin \
       --default-authentication-plugin=mysql_native_password
@@ -17,6 +18,7 @@ docker run --name zabbix-java-gateway -t \
       --network=rede-interna
       
       #:alpine-5.4-latest
+      
 
 
 docker run --name zabbix-server-mysql -t \
@@ -62,20 +64,4 @@ docker run --name zabbix-agent \
       --link zabbix-server-mysql:zabbix-server \
       -d zabbix/zabbix-agent
 
-docker run -d --name zabbix-agent \
-      --network=rede-interna \
-      --hostname "$(hostname)" \
-      --privileged \
-      -v /:/rootfs \
-      -v /var/run:/var/run \
-      --restart always \
-      -p 10050:10050 \
-      -e ZBX_HOSTNAME="$(hostname)" \
-      -e ZBX_SERVER_HOST="localhost" \
-      -d zabbix/zabbix-agent
 
-docker run --name zabbix-agent \
-      --network=rede-interna \
-      --link zabbix-server-mysql:zabbix-server \
-      --privileged \
-      -d zabbix/zabbix-agent2
