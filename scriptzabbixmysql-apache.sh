@@ -65,3 +65,14 @@ docker run --name zabbix-agent \
       -d zabbix/zabbix-agent
 
 
+Importando banco de dados mysql para dentro do docker
+
+Fazer o backup do banco MYSQL 
+
+mysqldump -u zabbix -pzabbix zabbix >/home/backupmysql/zabbix.sql
+
+Fazer a restauração backup do banco MYSQL
+
+service stop zabbix
+
+mysqldump -u zabbix -pzabbix zabbix </home/backupmysql/zabbix.sql
