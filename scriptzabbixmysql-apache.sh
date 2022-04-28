@@ -75,4 +75,32 @@ Fazer a restauração backup do banco MYSQL
 
 service stop zabbix
 
-mysqldump -u zabbix -pzabbix zabbix </home/backupmysql/zabbix.sql
+mysql -u zabbix -pzabbix zabbix </home/zabbix.sql
+
+
+Grafana Instalação
+
+Crie os diretorios
+
+sudo mkdir -p /var/lib/grafana /
+sudo chown -R 472:472 /var/lib/grafana /
+sudo chmod -R 775 /var/lib/grafana
+
+mkdir -p /var/lib/grafana && docker run --name grafana \
+       -v /var/lib/grafana:/var/lib/grafana \
+       -p 3000:3000 \
+       --network=rede-interna \
+       -d grafana/grafana-oss
+
+docker run -d --name=grafana \
+--restart always \
+--network=rede-interna \
+-p 3000:3000 \
+-e "GF_SERVER_PROTOCOL=http" \
+-e "GF_SERVER_HTTP_PORT=3000" \
+-v /var/lib/grafana:/var/lib/grafana \
+grafana/grafana
+
+
+
+
