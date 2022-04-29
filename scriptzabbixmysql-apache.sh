@@ -5,8 +5,8 @@ docker network create --subnet 172.20.0.0/16 --ip-range 172.20.240.0/20 rede-int
 mkdir -p /var/lib/mysql $$ docker run --name mysql-server -t \
       -e MYSQL_DATABASE="zabbix" \
       -e MYSQL_USER="zabbix" \
-      -e MYSQL_PASSWORD="senha" \
-      -e MYSQL_ROOT_PASSWORD="senha" \
+      -e MYSQL_PASSWORD="pass" \
+      -e MYSQL_ROOT_PASSWORD="pass" \
       -v /var/lib/mysql/:/var/lib/mysql \
       --network=rede-interna \
       -d mysql --character-set-server=utf8 --collation-server=utf8_bin \
@@ -25,8 +25,8 @@ docker run --name zabbix-server-mysql -t \
       -e DB_SERVER_HOST="mysql-server" \
       -e MYSQL_DATABASE="zabbix" \
       -e MYSQL_USER="zabbix" \
-      -e MYSQL_PASSWORD="senha" \
-      -e MYSQL_ROOT_PASSWORD="senha" \
+      -e MYSQL_PASSWORD="pass" \
+      -e MYSQL_ROOT_PASSWORD="pass" \
       -e ZBX_JAVAGATEWAY="zabbix-java-gateway" \
       --network=rede-interna \
       --link mysql-server:mysql \
@@ -43,8 +43,8 @@ docker run --name zabbix-web-apache-mysql -t \
       -e DB_SERVER_HOST="mysql-server" \
       -e MYSQL_DATABASE="zabbix" \
       -e MYSQL_USER="zabbix" \
-      -e MYSQL_PASSWORD="senha" \
-      -e MYSQL_ROOT_PASSWORD="senha" \
+      -e MYSQL_PASSWORD="pass" \
+      -e MYSQL_ROOT_PASSWORD="pass" \
       --privileged \
       --network=rede-interna \
       --link mysql-server:mysql \
