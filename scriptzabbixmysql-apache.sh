@@ -113,7 +113,8 @@ docker run -d --name=grafana \
 -e "GF_SERVER_PROTOCOL=http" \
 -e "GF_SERVER_HTTP_PORT=3000" \
 -v /var/lib/grafana:/var/lib/grafana \
-grafana/grafana
+grafana/grafana 
+teste
 
 
 
