@@ -1,0 +1,23 @@
+CRIANDO DOCKERFILE 
+
+Podemos usar nano/vi/vim dockerfile 
+
+#TIPO DA DISTRO A SER ESCOLHIDA
+FROM alpine     
+
+#PORTA PARA EXPOSICAO
+EXPOSE 5000
+
+#COMANDO DENTRO DO CONTAINER
+RUN apk add py3-pip
+
+#COPIANDO UM ARQUIVO PARA DENTRO DO CONTAINER
+COPY . /opt/app
+
+RUN pip3 install -r /opt/app/requiments.txt
+
+#DIRETORIO PADRÃO PARA ENTRAR
+WORKDIR /opt/app
+
+#ESPECIFICAR UMA SHELL PADRÃO
+CMD flask run --host 0.0.0.0
