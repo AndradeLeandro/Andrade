@@ -1,6 +1,6 @@
-CRIANDO DOCKERFILE 
+#CRIANDO DOCKERFILE 
 
-Podemos usar nano/vi/vim dockerfile 
+#Podemos usar nano/vi/vim dockerfile 
 
 #TIPO DA DISTRO A SER ESCOLHIDA
 FROM alpine     
