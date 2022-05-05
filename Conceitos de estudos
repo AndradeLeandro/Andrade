@@ -1,0 +1,397 @@
+Disponibilidade = Equipamentos devem estar sempre prontos para suprir uma queda, tem que estar disponivel a qualquer
+                momento para não deixar parar o serviço
+
+Integridade = Os arquivos devem estar integros para utilização, sem qualquer modificação, onde a hash pode ser
+                verificada atraves dos hash
+
+Confidencialidade = Onde devemos restringir o acesso a acessos autorizados, utilizar a criptografia para proteger
+                onde cada usuario tem seus niveis de acesso, 
+
+
+Spyware – este malware é projetado para rastrear e espionar o usuário. 
+            O spyware frequentemente inclui rastreadores de atividade, coleta de toque de tela e captura de dados.
+            Para tentar combater as medidas de segurança, o spyware quase sempre modifica as configurações de 
+            segurança. Muitas vezes, o spyware se junta ao software legítimo ou a cavalos de Troia.    
+
+Adware – o software com suporte a anúncio é projetado para fornecer anúncios automaticamente. 
+            O adware é frequentemente instalado com algumas versões do software. 
+            Alguns tipos de adware são projetados para oferecer somente anúncios,
+             mas também é comum que o adware venha com spyware                   
+             
+Bot- da palavra “robot”, um bot é o malware projetado para executar automaticamente a ação, geralmente on-line. 
+            Enquanto a maioria dos bots é inofensiva, uma utilização progressiva de bots mal-intencionados são os botnets.
+            Vários computadores estão infectados com bots que são programados para esperar calmamente os comandos
+             fornecidos pelo invasor.             
+
+Ransomware – este malware é projetado para manter preso um sistema de computador, ou os dados incluídos nele, 
+            até que o pagamento seja feito. O ransomware normalmente funciona criptografando os dados no computador 
+            com uma chave desconhecida ao usuário. Outras versões do ransomware podem lançar mão das vulnerabilidades 
+            de sistemas específicos para bloquear o sistema. 
+            O ransomware é espalhado por um arquivo baixado ou alguma vulnerabilidade de software             
+
+Scareware – este é um tipo de malware projetado para persuadir o usuário a executar uma 
+            ação específica com base no medo. O scareware simula janelas pop-up que se assemelham às 
+            janelas de diálogo do sistema operacional. Essas janelas transmitem mensagens falsificadas 
+            que afirmam que o sistema está em risco ou precisa da execução de um programa específico para 
+            retornar à operação normal. Na realidade, nenhum problema foi avaliado ou detectado. 
+            Se o usuário concordar e executar o programa mencionado para a limpeza, seu sistema será infectado
+             com malware.    
+             
+Rootkit – este malware é projetado para modificar o sistema operacional e criar um backdoor. 
+            Os invasores usam o backdoor para acessar o computador remotamente. A maioria dos rootkits utiliza
+            as vulnerabilidades do software para escalonar privilégios e modificar arquivos de sistema.
+            Também é comum os rootkits modificarem a computação forense do sistema e as ferramentas de monitoramento,
+            o que os torna muito difíceis de ser detectados. 
+            Muitas vezes, um computador infectado por um rootkit deve ser apagado e reinstalado
+
+Man-In-The-Middle (MitM) – o MitM permite que o invasor tenha o controle sobre um dispositivo sem o 
+            conhecimento do usuário. Com esse nível de acesso, o invasor pode interceptar e capturar informações do 
+            usuário antes de transmiti-las ao seu destino desejado. 
+            Os ataques MitM são amplamente utilizados para roubar informações financeiras. 
+            Muitos malwares e técnicas existem para fornecer aos invasores recursos de MitM.    
+            
+Man-In-The-Mobile (MitMo) – uma variação do Man-In-Middle, MitMo é um tipo de ataque usado para assumir 
+            o controle de um dispositivo móvel. Quando infectado, o dispositivo móvel pode ser instruído a extrair 
+            as informações confidenciais do usuário e enviá-las para os invasores. ZeuS, um exemplo de exploit com 
+            capacidades de MitMo, permite que os invasores capturem 
+            silenciosamente as mensagens de SMS de verificação de 2 passos enviadas para os usuários.
+
+Sintomas do malware
+            Independentemente do tipo de malware que infectou um sistema, estes são sintomas comuns:
+            
+            Há um aumento no uso da CPU.
+            Há uma diminuição na velocidade do computador.
+            O computador congela ou trava frequentemente.
+            Há uma diminuição na velocidade de navegação na Web.
+            Existem problemas inexplicáveis com conexões de rede.
+            Arquivos são modificados.
+            Arquivos são excluídos.
+            Há presença de arquivos, programas ou ícones de desktop desconhecidos.
+            Há processos desconhecidos em execução.
+            Programas estão se desligando ou reconfigurando sozinhos.
+            E-mails estão sendo enviados sem o conhecimento ou consentimento do usuário.
+
+
+Há alguns tipos de ataques de Engenharia social:
+
+        Pretexting - Ocorre quando um invasor chama uma pessoa e mente para ela na tentativa de obter 
+            acesso a dados confidenciais. Um exemplo envolve um invasor que finge precisar de dados pessoais 
+            ou financeiros para confirmar a identidade do destinatário.
+
+        Tailgating - quando um invasor rapidamente segue uma pessoa autorizada em um local seguro.
+
+        Something for Something (Quid pro quo) - ocorre quando um invasor solicita informações pessoais de uma pessoa em troca de algo, como um presente.
+
+
+Spear phishing é um ataque de phishing altamente direcionado. Embora o phishing e o 
+        spear phishing usem e-mails para alcançar as vítimas, os e-mails do spear phishing são personalizados 
+        para uma pessoa específica. O invasor pesquisa os interesses da vítima antes de enviar o e-mail. 
+        Por exemplo, um invasor descobre que a vítima está interessada em carros, procurando um modelo específico
+         de carro para comprar. O invasor entra no mesmo fórum de discussão de carros utilizado pela vítima, 
+         forja uma oferta de venda de carro e envia um e-mail para a vítima. O e-mail contém um link para as 
+         fotos do carro.
+         Quando a vítima clica no link, o malware é instalado no computador de destino.   
+         
+Muitos os dos worms que mais danificam o computador, como Nimbda, CodeRed, BugBear, Klez e Slammer, 
+        são categorizados como ataques mistos, como mostrado abaixo:
+
+         Algumas variantes de Nimbda utilizaram anexos de e-mail, downloads de arquivos de um servidor da
+          Web comprometido e compartilhamento de arquivos da Microsoft (por exemplo, compartilhamentos anônimos)
+           como métodos de propagação.
+         Outras variantes do Nimbda foram capazes de modificar contas de convidado do sistema para fornecer
+          privilégios administrativos ao código malicioso ou ao invasor.
+         Os recentes worms Conficker e ZeuS/LICAT também foram ataques mistos. O Conficker usou todos os 
+         métodos tradicionais de distribuição.
+
+
+Firewall de camada de rede 
+        – filtragem baseada em endereços IP de origem e destino
+
+Firewall de camada de transporte 
+        – filtragem baseada em portas de origem e destino de dados e em estados de conexão
+
+Firewall de camada de aplicação 
+        – filtragem baseada em aplicativo, programa ou serviço
+
+Firewall de aplicação com reconhecimento de contexto 
+        – filtragem baseada em usuário, dispositivo, função, tipo de aplicativo e perfil de ameaça
+
+Servidor proxy 
+        – filtragem de solicitações de conteúdo da Web, como URL, domínio, mídia etc.
+
+Servidor proxy reverso 
+        – colocado na frente de servidores da Web, os servidores proxy protegem, ocultam, fazem o offload e distribuem o acesso a servidores da Web
+
+Firewall Network Address Translation (NAT) 
+        – oculta ou disfarça os endereços privados de hosts de rede
+
+Firewall baseado em host 
+        – filtragem de portas e chamadas de serviço do sistema em um sistema operacional de computador único
+
+
+Aberta ou aceita
+        – o host respondeu indicando que um serviço está escutando na porta.
+
+Fechada, negada ou não escutando 
+        – o host respondeu indicando que as conexões serão negadas à porta.
+
+Filtrada, descartada ou bloqueada 
+        – não houve resposta do host.
+
+Roteadores 
+        - o Cisco Integrated Services Router (ISR), mostrado na Figura 1, tem muitos recursos de firewall
+        , além de funções apenas de roteamento, incluindo a filtragem de tráfego, 
+        a capacidade de executar um IPS (sistema de prevenção de intrusão), a criptografia e os
+         recursos de VPN para tunelamento criptografado seguro.
+
+Firewalls 
+        - firewalls de última geração da Cisco têm todos os recursos de um roteador ISR, bem como gerenciamento
+         avançado de redes e análise. O Cisco Adaptive Security Appliance (ASA) com recursos de firewall é mostrado
+          na Figura 2.
+
+IPS 
+        - dispositivos IPS de última geração da Cisco, mostrados na Figura 3, são dedicados à 
+        prevenção de intrusão.
+
+VPN 
+        - os equipamentos de segurança da Cisco são equipados com tecnologias de cliente e servidor de uma
+         rede privada virtual (VPN). Eles são projetados para tunelamento criptografado seguro.
+
+Malware/antivírus 
+        - O Cisco Advanced Malware Protection (AMP) vem na próxima geração de roteadores, firewalls, 
+        dispositivos IPS, dispositivos de segurança da Web e e-mail da Cisco e também pode ser instalado 
+        como um software em computadores host.
+
+Outros dispositivos de segurança 
+        – esta categoria inclui dispositivos de segurança de e-mail e Web, dispositivos de decriptografia,
+         servidores de controle de acesso para cliente e sistemas de gerenciamento de segurança.
+
+
+Varredura em tempo real da borda para o endpoint 
+        - a detecção de ataques em tempo real requer a varredura ativa de ataques usando firewall e dispositivos
+         de rede IDS/IPS. A detecção de malware de cliente/servidor de última geração com conexões a centros de
+          ameaças on-line globais também deve ser usada. Atualmente, os softwares e dispositivos de varredura
+           ativos devem detectar anomalias de rede usando a detecção de comportamento e análise baseada em contexto.
+
+Ataques de DDoS e resposta em tempo real 
+        - DDoS é a maior ameaça de ataque, que exige resposta e detecção em tempo real. 
+        É extremamente difícil se defender de ataques de DDoS, pois eles originam centenas ou milhares de 
+        hosts zumbis e aparecem como tráfego legítimo, conforme mostrado na figura. Para muitas empresas, 
+        os ataques de DDoS que ocorrem regularmente prejudicam os servidores de Internet e a disponibilidade
+         de rede. A capacidade de detectar e responder a ataques de DDoS em tempo real é crucial.
+
+Muitas empresas e profissionais publicaram listas das melhores práticas de segurança. Esta é uma lista das melhores práticas de segurança:
+
+Realizar a avaliação de risco 
+        – Saber o valor do que você está protegendo ajudará a justificar as despesas de segurança.
+
+Criar uma política de segurança 
+        – Criar uma política que define claramente as regras da empresa, os deveres e as expectativas do trabalho.
+
+Medidas de segurança física 
+        – Restringir o acesso a racks de rede, locais de servidor, bem como supressão de fogo.
+
+Medidas de segurança de recursos humanos 
+        – Os antecedentes dos funcionários devem ser devidamente pesquisados.
+
+Executar e testar backups – Fazer backups regulares e teste de recuperação de dados de backups.
+         Manter atualizações e patches de segurança – Atualizar regularmente o servidor e os sistemas operacionais e programas de dispositivos de rede e do cliente.
+         Empregar controles de acesso – Configurar funções de usuário e níveis de privilégio, bem como autenticação forte ao usuário.
+         Testar regularmente a resposta a incidentes – Empregar uma equipe de resposta a incidentes e testar cenários de resposta a emergências.
+         Implementar uma rede de monitoramento, análise e ferramenta de gerenciamento - Escolher uma solução de gerenciamento de segurança que se integra a outras tecnologias.
+         Implementar dispositivos de segurança de rede – Use roteadores next generation, firewalls e outros dispositivos de segurança.
+         Implementar uma solução abrangente de segurança de endpoint – Use software antivírus e antimalware de nível corporativo.
+         Treinar os usuários – Treinar os usuários e funcionários nos procedimentos de segurança.
+         Criptografar dados – Criptografar todos os dados confidenciais da empresa, incluindo e-mail.
+
+
+Etapa 1. Reconhecimento - o invasor reúne informações sobre o alvo.
+
+Etapa 2. Armamento - o invasor cria um exploit e payload mal-intencionado para enviar ao alvo.
+
+Etapa 3. Entrega -o invasor envia o exploit e o payload mal-intencionado para o alvo por e-mail ou outro método.
+
+Etapa 4. Exploração - o exploit é executado.
+
+Etapa 5 Instalação - malware e backdoors são instalados no alvo.
+
+Etapa 6. Comando e controle - controle remoto do alvo é adquirido por um servidor ou canal de comando e controle.
+
+Etapa 7. Ação - o invasor executa ações mal-intencionadas, como roubo de informações, ou executa ataques adicionais em outros dispositivos de dentro da rede, percorrendo novamente as etapas da Kill Chain.
+
+Para se defender contra a Kill Chain, as defesas de segurança de rede são projetadas contra essas etapas. Estas são algumas perguntas sobre as defesas de segurança da empresa, com base na Cyber Kill Chain:
+
+• Quais são os indicadores de ataque em cada etapa da Kill Chain?
+
+• Quais ferramentas de segurança são necessárias para detectar os indicadores de ataque em cada uma das etapas?
+
+• Existem lacunas na capacidade de a empresa detectar um ataque?
+
+
+Honeypots 
+        - a Honeypot é uma ferramenta de detecção baseada em comportamento que primeiro atrai o invasor
+         apelando ao padrão previsto de comportamento malicioso, e então, quando dentro da honeypot,
+          o administrador de rede pode capturar, registrar e analisar o comportamento do invasor. 
+          Isso permite que um administrador obtenha mais conhecimento e desenvolva uma defesa melhor.
+
+
+Arquitetura de soluções da Threat Defense Cyber da Cisco 
+        - esta é uma arquitetura de segurança que usa detecção baseada em comportamento e indicadores 
+        para fornecer maior visibilidade, contexto e controle. O objetivo é saber quem, o quê, onde, 
+        quando e como um ataque está ocorrendo. Essa arquitetura de segurança usa muitas tecnologias 
+        de segurança para atingir esse objetivo.
+
+
+O manual de segurança deve realizar as seguintes ações:
+
+        Detectar máquinas infectadas com malware.
+        Detectar atividades suspeitas na rede.
+        Detectar tentativas de autenticação irregulares.
+        Descrever e compreender o tráfego de entrada e de saída.
+        Fornecer informações resumidas, incluindo tendências, estatísticas e contagens.
+        Dar acesso útil e rápido a estatísticas e métricas.
+        Correlacionar eventos em todas as fontes de dados relevantes.
+
+
+        dd if=/dev/zero of=/tmp/swapex bs=1M count=50
+
+        if	
+Arquivo de entrada: O arquivo de entrada a ser lido.
+
+dd if=/dev/zero of=/tmp/swapex bs=1M count=50
+O exemplo lê do arquivo /dev/zero, um arquivo especial contendo um número ilimitado de zeros.
+
+of	
+Arquivo de saída: O arquivo de saída a ser gravado.
+
+dd if=/dev/zero of=/tmp/swapex bs=1M count=50
+bs	
+Tamanho do bloco: O tamanho do bloco a ser usado. Por padrão, o valor é considerado em bytes. Use os seguintes sufixos para especificar outras unidades: K, M, G e T para kilobytes, megabytes, gigabytes e terabytes respectivamente.
+
+dd if=/dev/zero of=/tmp/swapex bs=1M count=50
+O exemplo usa um tamanho de bloco de um megabyte.
+
+count	
+Contagem: O número de blocos a serem lidos a partir do arquivo de entrada.
+
+dd if=/dev/zero of=/tmp/swapex bs=1M count=50
+O comando de exemplo lê 50 blocos.
+
+Considere o seguinte
+
+Nenhum tamanho de bloco ou contagem precisa ser especificado ao copiar em dispositivos inteiros.
+ Por exemplo, para clonar de um disco rígido (/dev/sda) para outro (/dev/sdb) execute o seguinte comando:
+
+dd if=/dev/sda of=/dev/sdb
+
+Caracteres Regex extendidos	Significado
++	Um ou mais do padrão anterior
+?	O padrão anterior é opcional
+{ }	Especifique correspondências mínimas, máximas ou exatas do padrão anterior
+|	Alternação - um "ou" lógico
+( )	Usado para criar grupos
+
+Caracteres Regex básicos	Significado
+.	Qualquer caractere único
+[ ]	Qualquer caractere especificado
+[^ ]	Não é o caractere especificado
+*	Zero ou mais caracteres anteriores
+^	Se o primeiro caractere do padrão, o padrão deve estar no início da linha para corresponder, caso contrário, apenas um literal ^
+$	Se o último caractere do padrão, o padrão deve estar no final da linha para corresponder, caso contrário, apenas um literal $
+
+
+Os campos de saída são explicados abaixo:
+
+Campo	Exemplo	Significado
+User Name	sysadmin	O nome do usuário.
+Password Status	P	
+P indica uma senha utilizável.
+
+L indica uma senha bloqueada.
+
+NP indica que não há senha.
+
+Change Date	03/01/2015	A data em que a senha foi alterada pela última vez.
+Minimum	0	O número mínimo de dias que deve passar antes que a senha atual possa ser alterada pelo usuário.
+Maximum	99999	O número máximo de dias restantes para a senha expirar.
+Warn	7	O número de dias antes da expiração da senha que o usuário é avisado.
+Inactive	-1	O número de dias após a expiração da senha que a conta do usuário permanece ativa.
+
+Movimento do modo de comando
+Movimento	Resultado
+h	Deixou um caractere
+j	Abaixo uma linha
+k	Acima uma linha
+l	Um caractere à direita
+w	Uma palavra para a frente
+b	Uma palavra atrás
+^	Início da linha
+$	Fim da linha
+
+Ações do modo de comando
+Padrão	Vi	Significado
+cut	d	deletar
+copy	y	copiar
+paste	P | p	colar
+
+Excluir
+Ação	Resultado
+dd	Excluir linha atual
+3dd	Excluir as próximas três linhas
+dw	Excluir a palavra atual
+d3w	Excluira as próximas três palavras
+d4h	Excluir quatro caracteres à esquerda
+
+Mudar
+cc	Mudar linha atual
+cw	Mudar palavra atual
+c3w	Mudar as próximas três palavras
+c5h	Mudar cinco caracteres para a esquerda
+
+Arrancar (Yank)
+yy	Arranque a linha atual
+3yy	Arranque as próximas três linhas
+yw	Arranque as próximas três linhas
+y$	Arranque até o fim da linha
+
+Colocar
+p	Colocar (colar) após o cursor
+P	Colocar antes do cursor
+
+Modo de inserção
+a	Entrar no modo de inserção logo após o cursor
+A	Entrar no modo de inserção no final da linha
+i	Entrar no modo de inserção logo antes do cursor
+I	Entrar no modo de inserção no início da linha
+o	Entrar no modo de inserção em uma linha em branco após o cursor
+O	Entrar no modo de inserção em uma linha em branco antes do cursor
+
+Ex Mode
+:w	Salvar o arquivo atual no sistema de arquivos
+:w nome_do_arquivo	Salvar uma cópia do arquivo atual como nome_do_arquivo
+:w!	Forçar salvar arquivo atual
+:1	Vá para a linha número 1 ou qualquer número fornecido
+:e nome_do_arquivo	Abrir nome_do_arquivo
+:q	Sair se nenhuma alteração for feita no arquivo
+:q!	Sair sem salvar as alterações no arquivo
+
+A National Cybersecurity Workforce Framework
+A estrutura de força de trabalho categoriza o trabalho da segurança cibernética em sete categorias.
+
+Operar e manter inclui proporcionar o suporte, a administração e a manutenção necessários para garantir a segurança e o desempenho do sistema de TI.
+
+Proteger e defender inclui a identificação, a análise e a mitigação de ameaças a sistemas internos e a redes.
+
+Investigar inclui a investigação de evento e/ou crimes digitais que envolvem recursos de TI.
+
+Coletar e operar inclui as operações de negação e fraude especializadas e a coleta de informações de segurança cibernética.
+
+Analisar Provisionar de forma segura inclui a conceitualização, o projeto e a construção de sistemas de TI seguros.
+
+Supervisão e desenvolvimento proporciona liderança, gestão e orientação para realizar o trabalho de segurança cibernética de forma eficaz.
+
+Provisionar de forma segura inclui a conceitualização, o projeto e a construções de sistemas de TI seguros.
+
+Dentro de cada categoria, há várias áreas de especialização. As áreas de especialização definem, assim, tipos comuns de trabalho de segurança cibernética.
+
+A figura exibe cada uma das categorias e uma breve descrição de cada uma.
