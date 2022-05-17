@@ -2,7 +2,9 @@
 
 docker network create --subnet 172.20.0.0/16 --ip-range 172.20.240.0/20 rede-interna
 
-mkdir -p /var/lib/mysql $$ docker run --name mysql-server -t \
+mkdir -p /var/lib/mysql 
+
+      docker run --name mysql-server -t \
       -e MYSQL_DATABASE="zabbix" \
       -e MYSQL_USER="zabbix" \
       -e MYSQL_PASSWORD="senha" \
