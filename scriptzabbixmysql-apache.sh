@@ -2,13 +2,16 @@
 
 docker network create --subnet 172.20.0.0/16 --ip-range 172.20.240.0/20 rede-interna
 
-mkdir -p /var/lib/mysql $$ docker run --name mysql-server -t \
+sudo mkdir -p /var/lib/mysql 
+
+docker run --name mysql-server -t \
       -e MYSQL_DATABASE="zabbix" \
       -e MYSQL_USER="zabbix" \
       -e MYSQL_PASSWORD="senha" \
       -e MYSQL_ROOT_PASSWORD="senha" \
       -v /var/lib/mysql/:/var/lib/mysql \
       --network=rede-interna \
+      --security-opt seccomp=unconfined \
       -d mysql --character-set-server=utf8 --collation-server=utf8_bin \
       --default-authentication-plugin=mysql_native_password
 
@@ -64,6 +67,13 @@ docker run --name zabbix-agent \
       --link zabbix-server-mysql:zabbix-server \
       -d zabbix/zabbix-agent
 
+
+docker run -d -p 8000:8000 -p 9443:9443 --name portainer \
+    --restart=always \
+    --network=rede-interna \
+    -v /var/run/docker.sock:/var/run/docker.sock \
+    -v portainer_data:/data \
+    portainer/portainer-ce:2.9.3
 
 Importando banco de dados mysql para dentro do docker
 
