@@ -25,6 +25,6 @@ jobs:
           file: .
           push: true
           tags: |
-            andradeleandro/teste1:v1
-            andradeleandro/teste1:latest
+            andradeleandro/teste2:v1
+            andradeleandro/teste2:latest
             
